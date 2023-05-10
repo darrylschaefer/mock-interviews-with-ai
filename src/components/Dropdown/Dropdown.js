@@ -1,15 +1,14 @@
 import React, { useState, useEffect, useRef } from "react";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import {
-  HamburgerMenuIcon,
   CheckIcon,
   ChevronRightIcon,
 } from "@radix-ui/react-icons";
 
 import styles from "@/styles/DropdownMenu.module.css";
 import ThresholdSlider from "/src/components/Dropdown/ThresholdSlider";
-import Prompt from "src/components/Dropdown/Prompt";
 import MicQuietSlider from "./MicQuietSlider";
+import { Menu } from 'react-feather'
 
 const Dropdown = ({
   currentSession: currentSession,
@@ -59,19 +58,7 @@ const Dropdown = ({
     <DropdownMenu.Root>
       <DropdownMenu.Trigger asChild>
         <button className={styles.IconButton} aria-label="Customise options">
-          <svg
-            viewBox="0 0 24 24"
-            width="22"
-            height="22"
-            stroke="currentColor"
-            stroke-width="2"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <circle cx="12" cy="12" r="3"></circle>
-            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
-          </svg>
+          <Menu size={22} />
         </button>
       </DropdownMenu.Trigger>
 
