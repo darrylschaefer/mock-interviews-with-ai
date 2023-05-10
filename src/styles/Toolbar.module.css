@@ -1,0 +1,54 @@
+.Toolbar
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 18px;
+  position: relative;
+}
+
+.ToolbarButton
+{
+  background: var(--mauve12);
+    color: var(--mauve8);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left:18px;
+    margin-right:18px;
+    box-shadow: 0 2px 10px var(--blackA6);
+    border: 3px solid var(--mauve6);
+}
+
+.ToolbarButton:hover
+{
+  background-color: var(--mauve11);
+  color: var(--mauve1);
+}
+
+.ToolbarButtonMicrophone
+{
+  background: var(--mauve12);
+    color: var(--mauve8);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 10px var(--blackA6);
+    border: 3px solid var(--mauve6);
+    }
+
+
+    .ToolbarButtonMicrophone:hover {
+      background-color: var(--mauve11);
+      color: var(--mauve1);
+    }
