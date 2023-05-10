@@ -1,5 +1,5 @@
 import React from "react";
-import { Microphone } from 'react-feather';
+import { Mic } from 'react-feather';
 import styles from "@/styles/Toolbar.module.css";
 
 const Microphone = ({
@@ -32,7 +32,7 @@ const Microphone = ({
       onClick={handleMicrophoneSubmit}
     >
       <div style={{ lineHeight: 1, display: "flex" }}>
-        <Microphone size={22} />
+        <Mic size={22} />
       </div>
     </div>
   );
