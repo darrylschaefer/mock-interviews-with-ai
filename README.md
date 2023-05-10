@@ -85,3 +85,8 @@ Find the options menu below the console with these available features:
 2. **Red Border**: _Recording in progress_ - triggered by exceeding Voice Threshold, and will stop when volume falls below the threshold for the Mic Pause Timer duration.
 3. **Grey Border**: _Inactive_ - AI is currently processing the conversation.
 4. **White Border**: _Inactive_ - no session in progress.
+
+## Images
+
+<img src="https://github.com/darrylschaefer/mock-interviews-with-ai/assets/119073511/50b44684-5dfb-4de8-8bdf-8038fd9498b4)"></img>
+
